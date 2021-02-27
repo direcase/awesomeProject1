@@ -3,6 +3,7 @@ package main
 import (
 	"awesomeProject1/dariyaproto"
 	_ "awesomeProject1/dariyaproto"
+	"context"
 	"fmt"
 	"google.golang.org/grpc"
 	"log"
@@ -23,6 +24,11 @@ func main() {
 func PrimeNumberDecomposition(c dariyaproto.PrimeServiceClient) {
 
 	request := dariyaproto.Request{Number: 120}
-	fmt.Println(request)
+	ctx := context.Background()
+	response, err := c.Do(ctx, request)
+	if err != nil {
+		log.Fatalf("error while calling Greet RPC %v", err)
+	}
+	log.Printf("response from Greet:%v", response)
 
 }

@@ -3,6 +3,7 @@
 package dariyaproto
 
 import (
+	"awesomeProject1/1/server_c"
 	context "context"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
@@ -85,7 +86,7 @@ type UnsafePrimeServiceServer interface {
 	mustEmbedUnimplementedPrimeServiceServer()
 }
 
-func RegisterPrimeServiceServer(s grpc.ServiceRegistrar, srv PrimeServiceServer) {
+func RegisterPrimeServiceServer(s grpc.ServiceRegistrar, srv *main.Server) {
 	s.RegisterService(&PrimeService_ServiceDesc, srv)
 }
 

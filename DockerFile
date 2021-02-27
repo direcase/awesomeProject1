@@ -6,6 +6,5 @@ COPY . /go/src/awesomeProject1
 
 RUN apt-get update --yes
 RUN apt-get install --yes netcat
-RUN go mod download
 
 EXPOSE 50051/tcp

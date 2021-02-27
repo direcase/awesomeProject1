@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2032f629-159c-4f42-929b-d2eeaf7cdb2a" name="Default Changelist" comment="" />
+    <list default="true" id="2032f629-159c-4f42-929b-d2eeaf7cdb2a" name="Default Changelist" comment="ф">
+      <change afterPath="$PROJECT_DIR$/DockerFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,11 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1p3UA5B9nCJsVkk0JRP6yPgULEx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +44,16 @@
       <recent name="C:\Users\User\goProjects\awesomeProject1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go (1)">
+  <component name="RunManager" selected="Go Build.go build server.go (1)">
+    <configuration name="go build awesomeProject1/2/server_a2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject1" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/2/server_a2/server.go" />
+      <package value="awesomeProject1/2/server_a2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build client.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build awesomeProject1/2/server_a2" />
         <item itemvalue="Go Build.go build client.go (1)" />
         <item itemvalue="Go Build.go build server.go (1)" />
         <item itemvalue="Go Build.go build client.go" />
@@ -86,5 +103,9 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ф" />
+    <option name="LAST_COMMIT_MESSAGE" value="ф" />
   </component>
 </project>
